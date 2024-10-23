@@ -105,4 +105,3 @@ class Cache:
     def get_str(self: bytes) -> str:
         """get a string"""
         return self.decode("utf-8")
-
